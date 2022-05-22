@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 101%;
+    height: 78px;
+    text-align: center;
+}
+.navbar .logo img {
+    height: 80px;
+}
+.navbar .content div {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 15px; right: 30px;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 8px;
+}
+.navbar .content div a {
+    text-decoration: none;
+    color: white;
+}
+.main .slide{
+    position:absolute;
+    display: flex;
+    justify-content:center;
+    transform: translateX(140px);
+
+}
+.slide {
+    background:linear-gradient(to bottom,#9FA2AB,#070B0D);
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+    width: 1080px;
+}
+
+.prev, .next {
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.next {
+    right: 0;
+}
+.slide {
+    display: none;
+}
+.slide:nth-child(1) {
+    display: flex;
+}
+#img {
+    position: absolute;
+    top: 0; left: 0;
+    width: 1080; height: 430px;
+}
+.slide .tag {
+    display: block;
+    position: absolute;
+    top: 130px; right: 0px;
+    color: white;
+}
+.slide .tag div {
+    padding-bottom: 40px;
+}
+.slide .tag #tag10 {
+    position: relative;
+    right: 10px;top: -40px;
+    font-size: 60px;
+}
+.slide .tag #tag20 {
+    position: relative;
+    right: 0px; top: -60px;
+    font-size: 16px;
+}
+.slide .tag #tag30 {
+    position: relative;
+    top: -90px; right: 0px;
+    font-size: 14px;
+}
+.slide .tag #tag11 {
+    position: relative;
+    right: -0px;
+    font-size: 24px;
+}
+.slide .tag #tag21 {
+    font-size: 30px;
+}
+.slide .tag #tag31 {
+    position: relative;
+    top: -10px; right: -200px;
+    font-size: 14px;
+}
+.slide .tag #tag12 {
+    position: relative;
+    right: -0px;
+    font-size: 24px;
+}
+.slide .tag #tag22 {
+    font-size: 30px;
+}
+.slide .tag #tag32 {
+    position: relative;
+    top: -10px; right: -200px;
+    font-size: 14px;
+}
+.slide .tag #tag13 {
+    position: relative;
+    right: -0px;
+    font-size: 24px;
+}
+.slide .tag #tag23 {
+    font-size: 30px;
+}
+.slide .tag #tag33 {
+    position: relative;
+    top: -10px; right: -200px;
+    font-size: 14px;
+}
+.slide .tag #tag14 {
+    position: relative;
+    right: -0px;
+    font-size: 24px;
+}
+.slide .tag #tag24 {
+    font-size: 30px;
+}
+.slide .tag #tag34 {
+    position: relative;
+    top: -10px; right: -200px;
+    font-size: 14px;
+}

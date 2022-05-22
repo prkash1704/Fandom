@@ -1,0 +1,295 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500;
+    width: 101%;
+    height: 78px;
+    text-align: center;
+    z-index: 1;
+    top: 0;
+    padding-top: 10px;
+    width: 101%; height: 90px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+#navbar .logo img {
+    height: 80px;
+}
+#navbar .content div {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 15px; right: 30px;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 8px;
+}
+#navbar .content div a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar .content h1.active {
+    border-bottom: 2px solid white;
+    width: 84px;
+}
+.part1 {
+    margin: 130px 0 0 0;
+    height: 600px; width: 100%;
+    background-color: transparent;
+}
+.part1 div{
+    height: 600px; width: 600px;
+    display: inline-block;
+}
+.part1 .sec1 {
+    position: relative;
+    width: 800px;
+    overflow: hidden;
+}
+
+.part1 .sec2 {
+    position: absolute;
+    left: 850px;
+    width: 480px;
+}
+.part1 .sec1 .headline {
+    position: absolute;
+    top: -16px; left: 12px;
+    font-size: 20px; font-weight: 750;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.part1 .sec1 .imdblogo {
+    position: absolute;
+    top: 34px; left: 12px;
+    width: 60px;
+}
+.part1 .sec1 #rating {
+    position: absolute;
+    top: 28px; left: 80px;
+    font-size: 14px; font-weight: 650; color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.part1 .sec1 .content .poster {
+    position: absolute;
+    width: 760px;
+    top: 0;
+    margin: 80px 0 0 12px;
+    filter: blur(0.4px);
+    border-radius: 16px;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.316);
+}
+.part1 .sec1 .content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.part1 .sec1 .content h1 {
+    position: absolute;
+    top: 76px; left: 40px;
+    font-size: 40px;
+}
+.part1 .sec1 .content #line2 {
+    position: absolute;
+    top: 150px; left: 40px;
+    font-size: 14px; font-weight: 600;
+}
+.part1 .sec1 .content #gerne {
+    position: absolute;
+    top: 174px; left: 40px;
+    font-size: 14px; font-weight: 600;
+    opacity: 0.9;
+}
+.part1 .sec1 .content #story {
+    position: absolute;
+    top: 200px; left: 40px;
+    font-size: 26px; font-weight: 600;
+}
+.part1 .sec1 .content #description {
+    position: absolute;
+    top: 256px; left: 40px;
+    font-size: 12px;
+}
+.part1 .sec1 .content button {
+    position: absolute;
+    top: 400px; left: 40px;
+    width: 150px; height: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 18px; font-weight: 600;
+    border: transparent;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.part1 .sec1 .content button:hover {
+    opacity: 0.8;
+}
+.part1 .all {
+    cursor: pointer;
+}
+.part1 #all {
+    position: absolute;
+    font-size: 18px; font-weight: 650;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0; left: 40px;
+    cursor: pointer;
+}
+.part1 #all a {
+    text-decoration: none;
+    color: white;
+}
+.part1 .sec2 div {
+    position: relative;
+    height: 180px; width: 100%;
+    display: flex;
+    margin: 5px 0 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-left-radius: 14px;
+    overflow: hidden;
+    border-right: 8px solid rgb(255, 255, 255);
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.316);
+}
+.part1 .sec2 #title {
+    position: absolute;
+    bottom: -10px; left: 15px;
+    font-size: 16px; font-weight: 600;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+}
+.part1 .sec2 #rate {
+    position: absolute;
+    bottom: 22px; left: 80px;
+    font-size: 14px; font-weight: 550;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+}
+.part1 .sec2 #imdb {
+    position: absolute;
+    bottom: 10px; left: 14px;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+}
+.part1 .sec2 #imdb img {
+    height: 28px;
+}
+.part1 .sec2 div:hover #title {
+    visibility: visible;
+}
+.part1 .sec2 div:hover #imdb{
+    visibility: visible;
+}
+.part1 .sec2 div:hover #rate {
+    visibility: visible;
+}
+.part1 .sec2 div:hover #poster {
+    filter: blur(2px);
+    opacity: 0.5;
+}
+.part1 .sec2 #poster {
+    position: absolute;
+    top: -16px;
+    transition: all 0.3s ease-in-out;
+}
+.part1 .sec2 #poster img {
+    height: 180px;
+}
+.part1 .sec2 a button {
+    text-decoration: none;
+    position: absolute;
+    height: 40px; width: 120px;
+    font-size: 16px; font-weight: 650;
+    background-color: rgba(75, 75, 175, 0.886);
+    border: transparent;
+    margin: 70px 0 0 160px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    visibility: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.part1 .sec2 div:hover button {
+    visibility: visible;
+}
+.part1 .sec2 #Season {
+    position: absolute;
+    font-size: 36px; font-weight: 600;
+    right: 24px; top: 0;
+    color: white;
+}
+.part1 .sec2 #episode {
+    position: absolute;
+    font-size: 36px; font-weight: 600;
+    right: 20px; bottom: 0;
+    color: white;
+}
+.part1 .sec2 a button:hover {
+    background-color: rgba(255, 255, 255, 0.597);
+}
+
+.showss {
+    position: relative;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    height: max-content;
+}
+.showss div{
+    position: relative;
+    margin: 20px 0 50px 45px;
+    top: 30px;
+    display: inline-block;
+    height: 390px; width: 210px;
+    cursor: pointer;
+    box-shadow:  8px 6px 8px rgba(0, 0, 0, 0.363);
+    background-color: #1220202c;
+}
+.showss h1 {
+    position: relative;
+    margin: 40px 0 0 50px;
+    top: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+.showss div img {
+    position: absolute;
+    object-fit: cover;
+    width: 210px;
+    backface-visibility: hidden;
+}
+.showss #title {
+    position: absolute;
+    bottom: 20px; left: 10px;
+    font-size: 16px;
+}
+.showss #year {
+    position: absolute;
+    bottom: 0; left: 10px;
+    font-size: 12px;
+}
+.showss #title , .showss #year {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.showss button {
+    margin: 140px 0 0 46px;
+    background-color: rgba(41, 81, 155, 0.954);
+    border: transparent;
+    border-bottom-right-radius: 10px; border-top-left-radius: 10px;
+    font-size: 16px; font-weight: 600;
+    width: 120px; height: 40px;
+    cursor: pointer;
+}
+.showss div:hover img {
+    transition-delay: 0.5s;
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,107 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 101%;
+    height: 78px;
+    top: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 101%;
+    height: 90px;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    padding-top: 10px;
+    overflow: hidden;
+}
+#navbar .logo img {
+    height: 80px;
+}
+#navbar .content div {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 15px; right: 30px;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 8px;
+}
+#navbar .content div a {
+    text-decoration: none;
+    color: white;
+}
+#navbar .content h1.active {
+    border-bottom: 2px solid white;
+    width: 61px;
+}
+.main {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.main div {
+    margin: 20px 12px 0px 52px;
+    position: relative;
+    display: inline-block;
+    height: 450px; width: 260px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.355);
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+.poster {
+    position: absolute;
+    object-fit: cover;
+    backface-visibility: hidden;
+}
+.poster img {
+    height: 400px;
+}
+.main .book h1 {
+    position: absolute;
+    top: 396px; left: 5px;
+    color: rgb(0, 0, 0); font-weight: 500;
+    font-size: 14px;
+}
+.main .book h2 {
+    position: absolute;
+    top: 416px; left: 5px;
+    color: rgb(0, 0, 0); font-weight: 500;
+    font-size: 10px;
+}
+#price{
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px; font-weight: 500;
+}
+#rate{
+    color: white;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 80px;
+}
+.book button {
+    border: transparent;
+    margin-left: 66px;
+    text-align: center;
+    height:40px; width: 120px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.10);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.300),-2px -3px 6px rgba(0, 0, 0, 0.300);
+    font-size: 16px; font-weight: 600;
+    cursor: pointer;
+}
+.main .book:hover .poster {
+    transition-delay: 0.5s;
+    transform: rotateY(180deg);
+}
