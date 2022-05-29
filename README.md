@@ -19,3 +19,22 @@ projects.
 comics and buy games.
 5. User can also download TV shows and movies to your device and watch without an internet 
 connection
+
+#Future Work
+• After COVID-19 slumps, the global entertainment industry is set to rebound, 
+a new PwC report says.
+• Online data consumption spiked 30% during pandemic.
+• Gaming and cinema are expected to bounce back.
+Video games have steadily risen in popularity for years. And with 
+people looking for new ways to socialize and stay entertained 
+during the pandemic, the trend has only accelerated. Gaming is 
+now a bigger industry than movies and sports combined. 
+To begin with, the global OTT market is projected to be worth 
+more than $194 billion by 2025. While the future of OTT platforms 
+looks bright, service providers should expect to face stiff 
+competition. This is because more content creators and 
+publishers will try their hands at launching branded OTT apps in 
+the coming years. 
+According all these, we can see that how peoples are crazy about 
+these things. In future work, we make some change which 
+friendlier with user or by a web-application or mobile application. 
