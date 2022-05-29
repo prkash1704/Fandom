@@ -21,10 +21,8 @@ comics and buy games.
 connection
 
 # Future Work
-• After COVID-19 slumps, the global entertainment industry is set to rebound, 
-a new PwC report says.
-• Online data consumption spiked 30% during pandemic.
-• Gaming and cinema are expected to bounce back.
+After COVID-19 slumps, the global entertainment industry is set to rebound, 
+a new PwC report says. Online data consumption spiked 30% during pandemic. Gaming and cinema are expected to bounce back.
 Video games have steadily risen in popularity for years. And with 
 people looking for new ways to socialize and stay entertained 
 during the pandemic, the trend has only accelerated. Gaming is 
