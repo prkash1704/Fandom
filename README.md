@@ -20,7 +20,7 @@ comics and buy games.
 5. User can also download TV shows and movies to your device and watch without an internet 
 connection
 
-#Future Work
+# Future Work
 • After COVID-19 slumps, the global entertainment industry is set to rebound, 
 a new PwC report says.
 • Online data consumption spiked 30% during pandemic.
