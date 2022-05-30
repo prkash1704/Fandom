@@ -1,0 +1,230 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500;
+    width: 101%;
+    height: 78px;
+    text-align: center;
+    z-index: 1;
+    top: 0;
+    padding-top: 10px;
+    width: 101%; height: 90px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+#navbar .logo img {
+    height: 80px;
+}
+#navbar .content div {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 15px; right: 30px;
+    padding-left: 60px;
+    text-align: center;
+    font-size: 8px;
+}
+#navbar .content div a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar .content h1.active {
+    border-bottom: 2px solid white;
+    width: 60px;
+}
+.main {
+    margin-top: 100px;
+}
+.main div {
+    position: absolute;
+    display: block;
+    width: 100%; height: 500px;
+    margin: 20px 0 0 0;
+    border-radius: 20px;
+}
+.main .poster img {
+    position: absolute;
+    object-fit: cover;
+}
+.main .poster #img {
+    position: absolute;
+    height: 500px;
+    border-radius: 20px;
+}
+.main .data p {
+    position: absolute;
+    margin: 200px 0 0 80px;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.main .data #title {
+    position: absolute;
+    top: 30px;
+    font-size: 50px;
+    font-weight: 800;
+    width: 400px;
+}
+.main .data #country {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100px;
+    top: 16px;
+}
+.main .data #subtitle {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    top: 95px;
+    width: 200px;
+}
+.main .data #genere {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    width: 400px;
+    top: 130px;
+}
+.main .data #imdblogo img {
+    position: absolute;
+    top: 192px;
+}
+.main .data #rating {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    top: 188px; left: 80px;
+}
+.main .recommended {
+    position: absolute;
+    width: 434px;
+    left: 930px;
+}
+.main .recommended h1 {
+    position: relative;
+    margin: 0 0 0 30px;
+    font-size: 20px; font-weight: 600;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main .recommended div {
+    display: inline-block;
+    position: relative;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 3px rgba(255, 255, 255, 0.227);
+    height: 80px; width: 80px;
+    margin: 40px 0 0 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+    border-radius: 18px;
+    
+}
+.recommended div:hover {
+    background-color: rgba(255, 255, 255, 0.950);
+    box-shadow: 5px 5px 3px rgba(255, 255, 255, 0.327);
+}
+.watch img {
+    width: 50px;
+    padding: 15px 0 0 0;
+}
+.cast {
+    position: absolute;
+    right: -25px; bottom: -65px;
+    width: 400px; height: 350px;
+}
+.cast div {
+    position: relative;
+    display: inline-block;
+    height: 150px; width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 8px 0 5px 8px;
+}
+.cast div #name, .cast div #chr{
+    position: absolute;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2px;
+}
+.cast div #name {
+    bottom: 18px;
+}
+.cast div #chr {
+    bottom: 0;
+}
+#castH {
+    position: absolute;
+    right: 350px; bottom: 280px;
+    font-size: 20px; font-weight: 600;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.new {
+    position: relative;
+    top: 600px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    height: max-content;
+}
+.new div{
+    position: relative;
+    margin: 20px 0 50px 45px;
+    top: 30px;
+    display: inline-block;
+    height: 390px; width: 210px;
+    cursor: pointer;
+}
+.new h1 {
+    position: relative;
+    margin: 40px 0 0 50px;
+    top: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+.new div img {
+    position: absolute;
+    object-fit: cover;
+    width: 210px;
+    filter: drop-shadow(0 12px 4px rgba(0, 0, 0, 0.350));
+    backface-visibility: hidden;
+}
+.new #title {
+    position: absolute;
+    bottom: 10px; left: 10px;
+    font-size: 16px;
+}
+.new #year {
+    position: absolute;
+    bottom: -10px; left: 10px;
+    font-size: 12px;
+}
+.new #title , .new #year {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.new button {
+    margin: 140px 0 0 46px;
+    background-color: rgba(41, 81, 155, 0.954);
+    border: transparent;
+    border-bottom-right-radius: 10px; border-top-left-radius: 10px;
+    font-size: 16px; font-weight: 600;
+    width: 120px; height: 40px;
+    cursor: pointer;
+}
+.new div:hover img {
+    transition-delay: 0.5s;
+    transform: rotateY(180deg);
+}
