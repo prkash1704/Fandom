@@ -5,6 +5,7 @@ reading about new Characters and Comics, here users are able to
 watch Movies and TV-Shows free and also they can buy new 
 Games.
 
+https://user-images.githubusercontent.com/73516830/171019423-993ee23f-1afd-4944-a690-39536fcbdd5e.mp4
 
 # Applications
 1. Fandom help users to find the necessary information on a specific character. Due to the 
